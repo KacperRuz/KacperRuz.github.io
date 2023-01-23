@@ -4,12 +4,14 @@
   <title>KR_163293_1_0</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body style="background-color: wheat">
 
-<nav class="navbar fixed-top navbar-expand navbar-light" style="background-color: #D33F49;">
+<nav class="navbar fixed-top navbar-expand navbar-light" id="navbar" style="background-color: #D33F49;">
     <a class="navbar-brand" href="index.html">
         <img src="logo.png" width="25" height="25" alt="">
         Komputer moją pasją
@@ -33,6 +35,12 @@
             <a class="nav-link" href="kontakt.html">Kontakt</a>
         </li>
         </ul>
+        <div id="toogler_back">
+            <img src="toogler_back.png" style="width:54px">
+        </div>
+        <div id="toogleMode" onclick="modeToogler()" class="toogler-ball">
+            <img src="toogler_ball.png" style="width:20px">
+        </div>
     </div>
 </nav>
 

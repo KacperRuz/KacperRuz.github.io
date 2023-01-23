@@ -11,3 +11,12 @@
     color: tomato;
     font-style: normal;
   }
+
+.toogler-ball{
+    position: relative;
+    right: 22px;
+}
+
+.zoomer.active-zoom{
+  width: 500;
+}
