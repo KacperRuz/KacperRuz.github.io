@@ -5,15 +5,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body style="background-color: wheat">
 
 <nav class="navbar fixed-top navbar-expand navbar-light" id="navbar" style="background-color: #D33F49;">
-    <a class="navbar-brand" href="index.html">
-        <img src="logo.png" width="25" height="25" alt="">
+    <a class="navbar-brand" href="index.php?idp=">
+        <img src="img/logo.png" width="25" height="25" alt="">
         Komputer moją pasją
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,20 +26,20 @@
             <a class="nav-link" href="#">Usługi i narzędzia</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Galeria</a>
+            <a class="nav-link" href="index.php?idp=filmy">Filmy</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="about.html">O nas</a>
+            <a class="nav-link" href="index.php?idp=about">O nas</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="kontakt.html">Kontakt</a>
+            <a class="nav-link" href="index.php?idp=kontakt">Kontakt</a>
         </li>
         </ul>
         <div id="toogler_back">
-            <img src="toogler_back.png" style="width:54px">
+            <img src="img/toogler_back.png" style="width:54px">
         </div>
         <div id="toogleMode" onclick="modeToogler()" class="toogler-ball">
-            <img src="toogler_ball.png" style="width:20px">
+            <img src="img/toogler_ball.png" style="width:20px">
         </div>
     </div>
 </nav>
@@ -63,28 +63,28 @@
             <div class="col-sm-4">
                 <h2>Składam komputer stacjonarny.(WIP)</h2>
                 <a href="#">
-                <img src="screwdriver.png" style="width: 60%;">
+                <img src="img/screwdriver.png" style="width: 60%;">
                 </a><br><br>
                 Mamy dla Ciebie świetne narzędzie, które będzie na bieżąco zliczać niezbędny budżet oraz moc Twojego przyszłego zestawu.
             </div>
             <div class="col-sm-4">
                 <h2>Mój komputer miewa małe problemy.(WIP)</h2>
                 <a href="#">
-                <img src="thisisfine.png" style="width: 60%;"><br><br>
+                <img src="img/thisisfine.png" style="width: 60%;"><br><br>
                 </a>
                 Odwiedź naszą stronę poświęconą najczęściej spotykanym problemom z komputerami stacjonarnymi i laptopami.
             </div>
             <div class="col-sm-4">
                 <h2>Szukam zaufanego software'u.</h2>
-                <a href="software.html">
-                <img src="diagnosis.png" style="width: 60%;"><br><br>
+                <a href="index.php?idp=software">
+                <img src="img/diagnosis.png" style="width: 60%;"><br><br>
                 </a>
                 Pod tym linkiem znajdziesz używane przez nas programy diagnostyczne oraz oficjalne źródła dostawców sterowników.
             </div>
         </div>
         <br><br>
         <h1>Jeśli problem jest poważniejszy:</h1>
-        Przejdź do zakładki <a href ="kontakt.html">Kontakt</a> i wypełnij formularz a my się z tobą skontaktujemy.
+        Przejdź do zakładki <a href ="index.php?idp=kontakt">Kontakt</a> i wypełnij formularz a my się z tobą skontaktujemy.
     </div>
 </div>
 

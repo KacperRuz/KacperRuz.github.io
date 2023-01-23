@@ -1,0 +1,16 @@
+<?php
+	//error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
+	
+	$nr_indeksu = '163293';
+	echo "$nr_indeksu";
+	
+	$strona = 'html/about.html';
+	if($_GET["idp"] == "")
+		$strona = 'html/index.html';
+	if($_GET["idp"] == "uslugi")
+		$strona = 'html/uslugi.html';
+	if($_GET["idp"] == "dupa")
+		$strona = "html/kontakt.html";
+	
+	include($strona);
+?>
